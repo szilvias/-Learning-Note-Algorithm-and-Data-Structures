@@ -31,6 +31,35 @@ Definition
 - Multidimensional: matrices 
 - Topological structures: trees, graphs, networks
 
+### Data Typs
+#### Elementary (atomic) data types (Java)
+- Integers: byte (8-bit), short (16-bit), int (32-bit), long (64-bit)
+- Binary truth value (true or false): boolean
+- Char: char (16-bit)
+- Floating point numbers: float (32-bit), double (64-bit)
+#### Compound types
+- String: string
+- Record: data record (not explicit in Java; as an object or similar)
+- Set: Quantity (predefined in Java, including methods for sorting Etc.)
+- Array: order of fixed length of similar data
+
+### Pointer
+- Not explicit in Java
+- Reference to another object
+- Consists of the memory address of the referenced object
+- For dynamic data structures: memory only when needed
+- Explicit memory release in some programming languages
+- Java has garbage collection: If there is no more reference, the memory will be released.
+
+### Arrays
+order (field) of fixed length of data of the same type
+- Allows efficient access to elements: constant effort
+- Reference type: reference to (address of) data
+- An example: Sieve of Eratosthenes <https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes>
+#### Multi-dimensional Arrays
+- Two-dimensional arrays (= matrices) are arrays of arrays
+
+
 ### Some useful JAVA methods here:
 • parseInt() 
 ```
